@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainBanner{
+    display: flex;
+    background-color: #ffa989;
+    height: 500px;
+    width: 100%;
+}
+
+.bannerText{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 9vw;
+    width: 50%;
+    font-size: 20px;
+}
+.bannerImg{
+ width: 50%;
+}
+.banrImg1{
+    width: 35vw;
+}
+.bannerBtn{
+    font-size: 18px;
+    color: white;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.highlights{
+    margin: 60px 0 20px 0;
+    padding: 25px;
+    display: grid;
+    /*justify-content: center;*/
+    text-align: center;
+}
+
+.solutionRow{
+    display: flex;
+    justify-content: space-evenly;
+}
+.solution{
+    width: 32%;
+    text-align: center;
+    padding: 10px;
+}
+.solImg{
+    width: 20vw;
+}
+
+.div3{
+    margin: 60px 0 20px 0;
+    display: flex;
+    padding: 25px;
+    justify-content: space-evenly;
+}
+.onlineShop{
+    width: 30vw;
+}
+.div3Content{
+    width: 50%;
+}
+.div3List{
+    list-style: none;
+    padding: 10px 0 10px 0;
+}
+.div3List li{
+    /*background-color: red;*/
+    margin: 10px;
+    font-weight: bold;
+}
+
+.banner2Text{
+    color: white;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    padding: 10vw 20vw ;
+    font-size: 15px;
+}
+
+.pricingBlock{
+    margin:30px 0 30px 0;
+    text-align: center;
+}
+.packages{
+    margin: 30px 0 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    /*justify-content: space-between;*/
+}
+.pack{
+    padding: 20px;
+    text-align: left;
+    width: 32%;
+    border: solid #a2a2a2 1px;
+}
+.pack:hover{
+    border: none;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+    transition-duration: 0.6s;
+}
+.packList{
+    list-style: none;
+    color: #606060;
+}
+
+.lastBanner{
+    width: 100%;
+    display: flex;
+}
+.lastBannerText{
+    width: 50%;
+    padding: 4vw;
+}
+
+.faqs{
+    text-align: center;
+}
